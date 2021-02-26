@@ -11,7 +11,8 @@ A GitHub action for the [OpenAPI Generator](https://openapi-generator.tech/).
 ## Example usage
 
 ```yaml
-uses: actions/openapi-generator-action@v1
-with:
-  args: "generate -i spec.yaml -g typescript-fetch -o ./generated-code"
+- name: OpenAPI Generator Action
+  uses: kpurdon/openapi-generator-action@v0.0.1
+  with:
+      args: "generate -i spec.yaml -g typescript-fetch -o ./generated-code"
 ```
