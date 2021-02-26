@@ -5,4 +5,4 @@ branding:
   color: blue
 runs:
   using: "docker"
-  image: "openapitools/openapi-generator-cli"
+  image: "docker://openapitools/openapi-generator-cli"
