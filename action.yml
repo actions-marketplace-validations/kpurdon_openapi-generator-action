@@ -1,5 +1,8 @@
 name: "OpenAPI Generator Action"
 description: "Run the OpenAPI Generator CLI in a Github Action."
+branding:
+  icon: activity
+  color: blue
 runs:
   using: "docker"
   image: "openapitools/openapi-generator-cli"
