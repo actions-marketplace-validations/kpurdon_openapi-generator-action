@@ -12,7 +12,7 @@ A GitHub action for the [OpenAPI Generator](https://openapi-generator.tech/).
 
 ```yaml
 - name: OpenAPI Generator Action
-  uses: kpurdon/openapi-generator-action@v0.0.3
+  uses: kpurdon/openapi-generator-action@[version]
   with:
       args: "generate -i spec.yaml -g typescript-fetch -o ./generated-code"
 ```
